@@ -38,7 +38,7 @@ Movie Rank includes
 - Adobe Illustrator
 - Components of Material Design
  
-===========
+ 
 We´ll keep in practice on this project. 
 Hope u enjoy it!
 
