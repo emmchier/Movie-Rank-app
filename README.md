@@ -1,5 +1,5 @@
 # Movie-Rank-app
-## Search the best rated movies and series
+Search the best rated movies and series
 ===========
 Movie Rank is a mobile project that is updated all the time from the TMDB API. Using diverse technologies of the most current in the development, allows to be informed on the last series and films to see from your home or in the cinema. It is friendly, very simple to use and designed with the elements of Material Design. Let's have a tour.
 
