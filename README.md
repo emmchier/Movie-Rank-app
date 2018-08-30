@@ -17,11 +17,11 @@ Get some funny functions
 
 Movie Rank includes
 ===========
-Database:
+## Database:
 - Firebase, a real time data base.
 - Room to offline best UX.
- 
-Bookstores and web services:
+
+## Bookstores and web services:
 -TMDB API
 -Glide
 -ButterKnife
@@ -29,10 +29,10 @@ Bookstores and web services:
 -Retrofit
 -GSON
 
-Frameworks:
+## Frameworks:
 - Pure Android Studio, working in 3.0.1 version but you can use it in the latest 3.1.4 version with great results.
 
-Design tools:
+## Design tools:
 - Prototyping in Marvel App
 - Adobe Photoshop
 - Adobe Illustrator
