@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Movie Rank</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="titulo_pelicula">Titulo Pelicula</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="perfil">Perfil</string>
+
+    <string name="peliculas">Películas</string>
+    <string name="series">Series</string>
+    <string name="usuarios">Usuarios</string>
+    <string name="permisos">Permisos</string>
+
+    !-- ... -->
+    <string name="facebook_application_id" translatable="false">233326534110708</string>
+    <!-- Facebook Application ID, prefixed by 'fb'. Enables Chrome Custom tabs. -->
+    <string name="facebook_login_protocol_scheme" translatable="false">fb233326534110708</string>
+
+    <string name="search">Buscar</string>
+    <string name="submitted">Enviado</string>
+
+    <string name="firebase_web_host" translatable="false">proyecto-integrador-dh2.firebaseapp.com</string>
+
+
+</resources>

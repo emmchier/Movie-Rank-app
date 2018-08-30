@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer">
+
+    <FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#FF263238">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginBottom="50dp">
+
+            <include layout="@layout/toolbar"></include>
+
+            <android.support.design.widget.TabLayout
+                android:id="@+id/tabLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.design.widget.TabItem
+                    android:id="@+id/tabItem1"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:text="tab 1"/>
+
+                <android.support.design.widget.TabItem
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:id="@+id/tabItem2"
+                    android:text="tab 2"/>
+
+            </android.support.design.widget.TabLayout>
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/viewPagerPrincipal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FF263238">
+            </android.support.v4.view.ViewPager>
+
+        </LinearLayout>
+
+        <android.support.design.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom">
+
+            <RelativeLayout
+                android:id="@+id/botonRandom"
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:background="@color/transparente">
+            </RelativeLayout>
+            <include layout="@layout/bottom_bar"></include>
+
+            <ImageView
+                android:id="@+id/imageViewDado"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginRight="20dp"
+                android:scaleType="fitCenter"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/dado_blanco"
+                app:layout_anchor="@id/botonRandom"
+                app:layout_anchorGravity="center_horizontal"/>
+
+        </android.support.design.widget.CoordinatorLayout>
+
+    </FrameLayout>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/navigationView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:menu="@menu/menu_navigation_view">
+
+        <RelativeLayout
+            android:id="@+id/relativeContenedor"
+            android:layout_width="match_parent"
+            android:layout_height="85dp">
+        </RelativeLayout>
+
+    </android.support.design.widget.NavigationView>
+
+</android.support.v4.widget.DrawerLayout>
+
+

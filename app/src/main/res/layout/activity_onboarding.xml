@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="#ffffff"
+    tools:context="com.integrador.grupo2android.proyectointegrador.Vista.Activitys.ActivityOnboarding">
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/viewPagerOnBoarding">
+    </android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:id="@+id/dotLayout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@+id/dotLayout"
+        android:alpha=".5"
+        android:background="#2f2f2f"
+        android:layout_marginHorizontal="10dp"/>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:backgroundTint="#4dd0e1"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="20dp"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginHorizontal="10dp">
+        <Button
+            android:id="@+id/buttonNext"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="NEXT "
+            android:textSize="20dp"
+            android:background="@null"
+            android:backgroundTint="#4db6ac"
+            android:gravity="center"
+            android:textColor="#f2f2f2"/>
+    </android.support.v7.widget.CardView>
+
+        <Button
+            android:id="@+id/buttonSkip"
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:background="@null"
+            android:text="SKIP"
+            android:textColor="#4db6ac"
+            android:textSize="17dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginHorizontal="5dp"/>
+
+
+</RelativeLayout>

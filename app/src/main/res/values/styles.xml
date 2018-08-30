@@ -1,0 +1,57 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">#64ffda</item>
+    </style>
+
+    <style name="AppThemeLogin" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorButtonNormal">@android:color/white</item>
+        <item name="colorControlNormal">@android:color/white</item>
+        <item name="colorControlActivated">@android:color/white</item>
+        <item name="colorControlHighlight">@android:color/white</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textColorSecondary">@android:color/white</item>
+        <item name="android:windowBackground">@drawable/fondo_gris</item>
+        <item name="android:layout_marginTop">40dp</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:textColorHint">@android:color/white</item>
+        <item name="android:windowActionBarOverlay">true</item>
+    </style>
+
+    <style name="FirebaseUI.Text.TextInputLayout" parent="@style/FirebaseUI.EditText" />
+
+    <style name="FirebaseUI.Text.HintText" parent="@style/FirebaseUI.EditText" />
+
+    <style name="FirebaseUI.Text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="FirebaseUI.Text.Link">
+        <item name="android:textColor">@color/colorSecondary</item>
+    </style>
+
+    <style name="FirebaseUI.EditText">
+        <item name="android:paddingBottom">14dp</item>
+        <item name="android:paddingTop">14dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="colorControlActivated">@color/primary_light</item>
+        <item name="colorControlHighlight">@color/primary_light</item>
+        <item name="android:textColorHint">@color/primary_light</item>
+        <item name="android:textColor">@color/primary_light</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/imageViewFoto"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/sinfoto"
+        />
+
+    <TextView
+        android:id="@+id/textViewTexto"
+        android:layout_toRightOf="@+id/imageViewFoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre y Apellido"
+        android:textSize="16dp"
+        android:layout_marginLeft="10dp"
+        android:padding="5dp"/>
+
+</RelativeLayout>

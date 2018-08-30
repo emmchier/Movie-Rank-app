@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.integrador.grupo2android.proyectointegrador">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/dado_negro"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/dado_negro"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_application_id" />
+
+        <activity android:name=".Vista.Activitys.ActivityHome">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".Util.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESAGGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <service android:name=".Util.MyFirebaseInstanceIdService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+
+        <activity android:name=".Vista.Activitys.ActivityRegistro" />
+        <activity android:name=".Vista.Activitys.ActivityPerfil" />
+        <activity android:name=".Vista.Activitys.ActivityPrincipal" />
+        <activity
+            android:name=".Vista.Activitys.ActivityListado"
+            android:parentActivityName=".Vista.Activitys.ActivityPrincipal" />
+        <activity android:name=".Vista.Activitys.ActivityRandom" />
+        <activity android:name=".Vista.Activitys.ActivityLogin" />
+        <activity android:name=".Vista.Activitys.ActivityDetalle" />
+        <activity android:name=".Vista.Activitys.ActivityBuscador" />
+        <activity android:name=".Vista.Activitys.ActivityChat" />
+        <activity android:name=".Vista.Activitys.ActivityOnboarding"></activity>
+    </application>
+
+</manifest>

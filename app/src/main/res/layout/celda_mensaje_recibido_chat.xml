@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/chatMensajeRecibido"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:weightSum="100"
+    android:gravity="right"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="80dp"
+    android:layout_marginBottom="5dp"
+    android:backgroundTint="#FFB9F6CA"
+    app:cardElevation="5dp"
+    app:cardCornerRadius="20dp">
+
+    <LinearLayout
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewNameUserChat"
+            android:layout_gravity="left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Usuario"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:maxLines="1"
+            android:layout_alignParentStart="true"
+            />
+        <TextView
+            android:id="@+id/textViewMensajeAEnviar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MENSAJE"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/textViewClockMensaje"
+            android:layout_gravity="right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:text="00:00:00"
+            android:maxLines="1"
+            android:layout_alignParentEnd="true"/>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

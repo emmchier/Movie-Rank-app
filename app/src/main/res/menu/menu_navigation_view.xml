@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Busqueda por generos">
+
+    </item>
+
+    <item
+        android:id="@+id/navigationMenuPeliculas"
+        android:title="🎬  Peliculas">
+        <menu>
+            <item
+                android:id="@+id/generoPeliculaAccion"
+                android:title="⭐ Accion"/>
+            <item
+                android:id="@+id/generoPeliculaAventura"
+                android:title="⭐ Aventura"/>
+            <item
+                android:id="@+id/generoPeliculaAnimación"
+                android:title="⭐ Animación"/>
+            <item
+                android:id="@+id/generoPeliculaComedia"
+                android:title="⭐ Comedia"/>
+            <item
+                android:id="@+id/generoPeliculaCrimen"
+                android:title="⭐ Crimen"/>
+            <item
+                android:id="@+id/generoPeliculaDocumental"
+                android:title="⭐ Documental"/>
+            <item
+                android:id="@+id/generoPeliculaDrama"
+                android:title="⭐ Drama"/>
+            <item
+                android:id="@+id/generoPeliculaFamilia"
+                android:title="⭐ Familia"/>
+            <item
+                android:id="@+id/generoPeliculaFantasía"
+                android:title="⭐ Fantasía"/>
+            <item
+                android:id="@+id/generoPeliculaHistoria"
+                android:title="⭐ Historia"/>
+            <item
+                android:id="@+id/generoPeliculaTerror"
+                android:title="⭐ Terror"/>
+            <item
+                android:id="@+id/generoPeliculaMusica"
+                android:title="⭐ Música"/>
+            <item
+                android:id="@+id/generoPeliculaMisterio"
+                android:title="⭐ Misterio"/>
+            <item
+                android:id="@+id/generoPeliculaRomance"
+                android:title="⭐ Romance"/>
+            <item
+                android:id="@+id/generoPeliculaCienciaFicción"
+                android:title="⭐ Ciencia ficción"/>
+            <item
+                android:id="@+id/generoPeliculaDeLaTelevisión"
+                android:title="⭐ película de la televisión"/>
+            <item
+                android:id="@+id/generoPeliculaSuspenso"
+                android:title="⭐ Suspenso"/>
+            <item
+                android:id="@+id/generoPeliculaGuerra"
+                android:title="⭐ Guerra"/>
+            <item
+                android:id="@+id/generoPeliculaWestern"
+                android:title="⭐ Western"/>
+
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/navigationMenuSeries"
+        android:title="📽️  Series">
+        <menu>
+            <item
+                android:id="@+id/generoSerieAccionAdventure"
+                android:title="★ Accion y Aventura"/>
+            <item
+                android:id="@+id/generoSerieAnimación"
+                android:title="★ Animación"/>
+            <item
+                android:id="@+id/generoSerieComedia"
+                android:title="★ Comedia"/>
+            <item
+                android:id="@+id/generoSerieCrimen"
+                android:title="★ Crimen"/>
+            <item
+                android:id="@+id/generoSerieDocumental"
+                android:title="★ Documental"/>
+            <item
+                android:id="@+id/generoSerieDrama"
+                android:title="★ Drama"/>
+            <item
+                android:id="@+id/generoSerieFamilia"
+                android:title="★ Familia"/>
+            <item
+                android:id="@+id/generoSerieInfantil"
+                android:title="★ Infantil"/>
+            <item
+                android:id="@+id/generoSerieMisterio"
+                android:title="★ Misterio"/>
+            <item
+                android:id="@+id/generoSerieNews"
+                android:title="★ News"/>
+            <item
+                android:id="@+id/generoSerieReality"
+                android:title="★ Reality"/>
+            <item
+                android:id="@+id/generoSerieSci-FiYFantasy"
+                android:title="★ Ciencia Ficcion y Fantacia"/>
+            <item
+                android:id="@+id/generoSerieGerraYpelitica"
+                android:title="★ Guerra y Politica"/>
+
+        </menu>
+    </item>
+
+</menu>

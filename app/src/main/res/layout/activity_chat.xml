@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.integrador.grupo2android.proyectointegrador.Vista.Activitys.ActivityChat">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimaryDark">
+        <ImageView
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            app:srcCompat="@drawable/ic_back" />
+        <ImageView
+            android:id="@+id/imageUserChat"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginVertical="8dp"
+            android:src="@mipmap/ic_launcher_round" />
+        <TextView
+            android:id="@+id/textViewNombreUsuarioChat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginHorizontal="10dp"
+            android:layout_toRightOf="@+id/backButton"
+            android:text="Nombre Usuario"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerViewChat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fondo_gris"
+        android:layout_weight="100">
+    </android.support.v7.widget.RecyclerView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:gravity="bottom"
+        android:background="@drawable/franja_fondo">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="5dp"
+            android:layout_marginHorizontal="15dp"
+
+            android:layout_gravity="center_vertical">
+            <EditText
+                android:id="@+id/editTextInsertarTexto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Movie Chat"
+                android:layout_marginHorizontal="10dp"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fabBotonEnviar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#64ffda"
+            android:src="@drawable/send_movie_icon"
+            android:layout_marginBottom="12dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

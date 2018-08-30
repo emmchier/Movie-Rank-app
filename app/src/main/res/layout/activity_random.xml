@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.integrador.grupo2android.proyectointegrador.Vista.Activitys.ActivityRandom">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/contenedorDelRandom"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="5dp"
+                android:background="@drawable/fondo_gris">
+
+                <ImageView
+                    android:id="@+id/fondoGris"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/fondo_gris"
+                    />
+                <ImageView
+                    android:id="@+id/backButtonRandom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ic_back"
+                    />
+
+            </android.support.v7.widget.CardView>
+
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/dado"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center|bottom"
+            app:srcCompat="@drawable/dado_blanco"
+            />
+
+        <RelativeLayout
+            android:id="@+id/barraVioleta"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:background="#FF512DA8"
+            android:layout_gravity="bottom">
+        </RelativeLayout>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/botonRandom"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/press"
+            android:tint="#000"
+            app:layout_anchor="@id/barraVioleta"
+            app:layout_anchorGravity="center_horizontal"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="R A N D O M"
+            android:textSize="20dp"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="5dp"/>
+
+    </android.support.design.widget.CoordinatorLayout>
+
+</LinearLayout>

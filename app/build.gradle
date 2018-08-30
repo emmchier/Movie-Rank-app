@@ -1,0 +1,68 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 27
+    defaultConfig {
+        applicationId "com.integrador.grupo2android.proyectointegrador"
+        minSdkVersion 19
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        vectorDrawables.useSupportLibrary = true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    //APP
+    implementation 'com.android.support:appcompat-v7:27.0.2'
+    implementation 'com.android.support:design:27.0.2'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.1'
+    implementation 'com.android.support:support-vector-drawable:27.0.2'
+    implementation 'com.android.support:support-v4:27.0.2'
+
+    //RETROFIT
+    implementation 'com.squareup.retrofit2:retrofit:2.4.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.4.0'
+
+    //FACEBOOK LOGIN
+    implementation 'com.facebook.android:facebook-android-sdk:[4,5)'
+
+    //BUTTER KNIFE
+    implementation 'com.jakewharton:butterknife:8.8.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+
+    //GLIDE
+    implementation 'com.github.bumptech.glide:glide:3.8.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.7.1'
+
+    //EASY IMAGE
+    implementation 'com.github.jkwiecien:EasyImage:2.0.2'
+    implementation 'com.github.msayan:tutorial-view:v1.0.6'
+
+    // FirebaseUI for Firebase Realtime Database
+    implementation 'com.firebaseui:firebase-ui-database:4.1.0'
+
+    // FirebaseUI for Firebase Auth
+    implementation 'com.firebaseui:firebase-ui-auth:4.1.0'
+
+    // FirebaseUI for Cloud Storage
+    implementation 'com.firebaseui:firebase-ui-storage:4.1.0'
+
+    //Notificaciones Push
+    implementation 'com.google.firebase:firebase-messaging:9.4.0'
+
+    //ROOM
+    implementation 'android.arch.persistence.room:runtime:1.1.1'
+    annotationProcessor "android.arch.persistence.room:compiler:1.1.1"
+
+}
+apply plugin: 'com.google.gms.google-services'
