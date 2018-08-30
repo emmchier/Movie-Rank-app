@@ -3,8 +3,7 @@
 
 Movie Rank is a final work of study. It is a mobile project that is updated all the time from the TMDB API. We use various technologies of the most current in development, allowing the user to be informed about the latest series and movies to watch at home or at the cinema. It is friendly, very simple to use and is designed with the elements of Material Design. Let's make a tour.
 
-SEE ALL THE UI DESIGNS, FUNCTIONALITIES RUNNING 
-AND THE ENTIRE PROYECT´S PROCESS IN [BEHANCE](https://www.behance.net/gallery/69633073/Movie-Rank-App/)
+look at all the ui designs, the running features and the complete project process here in behance [BEHANCE](https://www.behance.net/gallery/69633073/Movie-Rank-App/)
 
 Get some funny functions
 ===========
